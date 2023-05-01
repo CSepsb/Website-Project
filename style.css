@@ -1,0 +1,148 @@
+html {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(img/image\ \(1\)-modified.jpg);
+}
+
+h1 {
+  height: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  background-color: #292929;
+  background: linear-gradient(180deg, #353535, #a0a0a0);
+  color: #ffffff;
+}
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.nav a {
+  color: #292929;
+  text-decoration: none;
+  margin: 0 10px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid #292929;
+}
+
+.nav a.active {
+  border-bottom: 2px solid #292929;
+}
+
+.center {
+  text-align: center;
+  border-radius: 50px;
+  width: 700px;
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 35px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.portrait {
+  text-align: center;
+  border-radius: 50px;
+  width: 700px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 35px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.ball {
+  width: 200px;
+  float: left;
+}
+
+.ifab {
+  width: 200px;
+  float: right;
+}
+
+.bicycle {
+  margin-top: 40px;
+  text-align: center;
+  width: 700px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.about {
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 700px;
+  margin: 25px auto;
+  padding: 25px 150px 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 700px;
+  margin: 25px auto;
+  padding: 25px 150px 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.quiz {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 700px;
+  margin: 25px auto;
+  padding: 25px 150px 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #f7ed63;
+}
+button {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-color: #292929;
+  border-width: 2px;
+  border-style: solid;
+  padding: 5px 15px 5px;
+  color: #292929;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Pelé {
+  text-align: center;
+  font-family: Arial, Helvetica, sans;
+}
+
+.correct{
+  color: rgb(6, 167, 6);
+  font-weight: bold;
+  margin-left:10px;
+}
+
+.incorrect{
+  color: red;
+  font-weight: bold;
+  margin-left:10px;
+}
+a{
+  color: black;
+  font-weight:100;}
