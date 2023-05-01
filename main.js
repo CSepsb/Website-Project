@@ -5,7 +5,7 @@ let Answer = 0;
 document.getElementById("btn").addEventListener("click", btnClicked);
 
 function btnClicked() {
-  // Get input
+  // Get input 1
   let input1 = document.getElementById("input1").value;
   // Check if answer is correct
   if (input1 === "90") {
@@ -18,7 +18,7 @@ function btnClicked() {
       "1"
     ).innerHTML = `<span class="incorrect" id="1">Incorrect<a> (90)</a></span>`;
   }
-  // Get input
+  // Get input 2
   let input2 = document.getElementById("input2").value;
   // Check if answer is correct
   if (input2 === "4") {
@@ -31,7 +31,7 @@ function btnClicked() {
       "2"
     ).innerHTML = `<span class="incorrect" id="2">Incorrect<a> (4)</a></span>`;
   }
-  // Get input
+  // Get input 3
   let input3 = document.getElementById("input3").value;
   // Check if answer is correct
   if (input3 === "22") {
@@ -44,7 +44,7 @@ function btnClicked() {
       "3"
     ).innerHTML = `<span class="incorrect" id="3">Incorrect<a> (22)</a></span>`;
   }
-  // Get input
+  // Get input 4
   let input4 = document.getElementById("input4").value.toLowerCase();
   input4 = input4.toLowerCase();
   // Check if answer is correct
@@ -58,7 +58,7 @@ function btnClicked() {
       "4"
     ).innerHTML = `<span class="incorrect" id="4">Incorrect<a> (England)</a></span>`;
   }
-  // Get input
+  // Get input 5
   let input5 = document.getElementById("input5").value.toLowerCase();
   input5 = input5.toLowerCase();
   // Check if answer is correct
