@@ -1,6 +1,7 @@
 // Soccer Quiz
 let Answer = 0;
 
+//Add event listner
 document.getElementById("btn").addEventListener("click", btnClicked);
 
 function btnClicked() {
